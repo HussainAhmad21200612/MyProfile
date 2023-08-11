@@ -113,6 +113,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         {
             id: 4,
             download:true,
+            url:"/Hussain_RESUME.pdf",
             icon: <BsFillPersonLinesFill/>
         },
         {
@@ -184,9 +185,9 @@ const Avatar = ({darkMode,setDarkMode}) => {
     <div className='lg:hidden flex top-[92%] justify-evenly text-center items-center w-[60%] lg:w-60 h-[6%] text-4xl lg:text-2xl fixed bg-cyan-500 dark:bg-gray-500 z-10 rounded-2xl'>
               
               {
-                  linkBottom.map(({ id, url, icon }) => {
+                  linkBottom.map(({ id, url, icon , download }) => {
                       
-                      return <a href={url} key={id} className='cursor-pointer duration-300 hover:scale-150 ease-in-out ' target="_blank" rel="noopener noreferrer">{icon}</a>
+                      return <a href={url} key={id} className='cursor-pointer duration-300 hover:scale-150 ease-in-out ' download={download} target="_blank" rel="noopener noreferrer">{icon}</a>
                   })
               
               }
