@@ -6,7 +6,7 @@ import p2 from "../images/p2.jpeg";
 import p3 from "../images/p3.jpeg";
 import p4 from "../images/p4.jpeg";
 const Portfolio = () => {
-  const [counters, setCounters] = useState([199999,0,0,0,0,0]);
+  const [counters, setCounters] = useState([0,0,0,0,0,0]);
 
   const handleButtonClick = (index,isTicked) => {
     // Created a copy of the counters array to avoid directly mutating the state using spread
@@ -24,9 +24,9 @@ const Portfolio = () => {
     {
       id: 1,
       image: p1,
-      title: "ChatApp",
-      github: "https://github.com",
-      live: "https://github.com",
+      title: "My Profile",
+      github: "https://github.com/HussainAhmad21200612/MyProfile",
+      live: "https://my-profile-beryl-chi.vercel.app/",
       
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
     },
@@ -34,24 +34,24 @@ const Portfolio = () => {
       id: 2,
       image: p2,
       title: "Personalized TodoApp",
-      github: "https://github.com",
-      live: "https://github.com",
+      github: "https://github.com/HussainAhmad21200612/HUTECH-PERSONAL",
+      live: "",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
     },
     {
       id: 3,
       image: p3,
       title: "RockVsMine",
-      github: "https://github.com",
-      live: "https://github.com",
+      github: "https://github.com/HussainAhmad21200612/SONAR-ROCK-VS-MINE-OREDICTION",
+      live: "https://github.com/HussainAhmad21200612/SONAR-ROCK-VS-MINE-OREDICTION",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
     },
     {
       id: 4,
       image: p4,
       title: "MSoft Calculator Clone",
-      github: "https://github.com",
-      live: "https://github.com",
+      github: "https://github.com/HussainAhmad21200612/CLONE-MICROSOFT-CALCULATOR",
+      live: "https://github.com/HussainAhmad21200612/CLONE-MICROSOFT-CALCULATOR",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
     }
   ]
