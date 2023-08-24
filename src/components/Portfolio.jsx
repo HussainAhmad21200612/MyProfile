@@ -4,7 +4,7 @@ import { FaGithub, FaExternalLinkSquareAlt,FaStar } from 'react-icons/fa';
 import p1 from "../images/p1.jpeg";
 import p2 from "../images/p2.jpeg";
 import p3 from "../images/p3.jpeg";
-import p4 from "../images/p4.jpeg";
+import p6 from "../images/p6.png";
 const Portfolio = () => {
   const [counters, setCounters] = useState([0,0,0,0,0,0]);
 
@@ -48,7 +48,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      image: p4,
+      image: p6,
       title: "Xlate",
       github: "https://github.com/HussainAhmad21200612/Xlate",
       live: "https://github.com/HussainAhmad21200612/Xlate",
