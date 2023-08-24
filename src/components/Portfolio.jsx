@@ -49,9 +49,9 @@ const Portfolio = () => {
     {
       id: 4,
       image: p4,
-      title: "MSoft Calculator Clone",
-      github: "https://github.com/HussainAhmad21200612/CLONE-MICROSOFT-CALCULATOR",
-      live: "https://github.com/HussainAhmad21200612/CLONE-MICROSOFT-CALCULATOR",
+      title: "Xlate",
+      github: "https://github.com/HussainAhmad21200612/Xlate",
+      live: "https://github.com/HussainAhmad21200612/Xlate",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum."
     }
   ]
