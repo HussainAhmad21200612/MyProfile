@@ -32,7 +32,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>LinkedIn <FaLinkedin size={30}/></>
             ),
-            url:"https://www.linkedin.com/in/hussain-ahmad-62040a215/"
+            url:"https://www.linkedin.com/in/hussainahmad6092/"
         },
         {
             id:3,
@@ -48,7 +48,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>Resume <BsFillPersonLinesFill size={30}/></>
             ),
-            url:"/Hussain_RESUME.pdf",
+            url:"/Hussain_Ahmad_Resume_2023.pdf",
             download:true
         },
         {
@@ -76,7 +76,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         {
             id: 2,
             title:'linkedin',
-            url: "https://www.linkedin.com/in/hussain-ahmad-62040a215/",
+            url: "https://www.linkedin.com/in/hussainahmad6092/",
             icon: <FaLinkedin />
         },
         {
@@ -102,7 +102,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         },
         {
             id: 2,
-            url: "https://www.linkedin.com/in/hussain-ahmad-62040a215/",
+            url: "https://www.linkedin.com/in/hussainahmad6092/",
             icon: <FaLinkedin />
         },
         {
@@ -113,7 +113,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         {
             id: 4,
             download:true,
-            url:"/Hussain_RESUME.pdf",
+            url:"/Hussain_Ahmad_Resume_2023.pdf",
             icon: <BsFillPersonLinesFill/>
         },
         {
