@@ -154,7 +154,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             </div>
               <div className='block'>
                   <img src={my_pfp} alt="avatar" className="w-60 lg:my-0 my-20 h-60 lg:w-72 lg:h-72 object-cover object-top bg-gradient-to-b from-cyan-500 rounded-xl" />
-                  <a href="/Hussain_Ahmad.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
+                  <a href="/Hussain_Ahmad_Resume_2023.pdf" className="flex justify-center text-center py-2 mt-10 bg-gradient-to-r from-cyan-500 to-black text-white rounded-lg" target="_blank" rel="noopener noreferrer" download={true}>Download Resume</a>
               </div>
           <div className='down-arrow'>
               <FaArrowDown className='hover:text-cyan-500 text-5xl lg:text-3xl cursor-pointer animate-bounce mt-20 text-gray-500' onClick={
