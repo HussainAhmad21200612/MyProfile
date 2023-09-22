@@ -11,7 +11,7 @@ const Contact = () => {
         },
         {
             id: 2,
-            url: "https://www.linkedin.com/in/hussainahmad6092/",
+            url: "https://www.linkedin.com/in/hussain-ahmad-62040a215/",
             icon: <FaLinkedin />
         },
         {
