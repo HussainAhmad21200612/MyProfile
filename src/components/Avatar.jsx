@@ -32,7 +32,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
             content:(
                 <>LinkedIn <FaLinkedin size={30}/></>
             ),
-            url:"https://www.linkedin.com/in/hussainahmad6092/"
+            url:"https://www.linkedin.com/in/hussain-ahmad-62040a215/"
         },
         {
             id:3,
@@ -76,7 +76,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         {
             id: 2,
             title:'linkedin',
-            url: "https://www.linkedin.com/in/hussainahmad6092/",
+            url: "https://www.linkedin.com/in/hussain-ahmad-62040a215/",
             icon: <FaLinkedin />
         },
         {
@@ -102,7 +102,7 @@ const Avatar = ({darkMode,setDarkMode}) => {
         },
         {
             id: 2,
-            url: "https://www.linkedin.com/in/hussainahmad6092/",
+            url: "https://www.linkedin.com/in/hussain-ahmad-62040a215/",
             icon: <FaLinkedin />
         },
         {
